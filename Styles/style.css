@@ -1,0 +1,189 @@
+html,body{
+    background:radial-gradient( black, black);
+    width: 100%;
+    height: 100%;
+}
+
+.nav-bar{
+    background: radial-gradient(white, gray ,rgb(41, 40, 40));
+    width: 100%;
+    height: 5rem;
+    box-shadow: 8px 8px 8px rgb(41, 41, 41);
+}
+#nav-bar{
+    background: radial-gradient(gray, rgb(37, 37, 37));
+    width: 36%;
+    height: 15%;
+    position: absolute;
+    left: 64%;
+    top: 1%;
+}
+
+h1{
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration:underline;
+}
+
+#ini,#So,#Pro,#Ha{
+    width: 20%;
+    height: 25%;
+    position: absolute;
+    top: 2rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15pt;
+
+}
+p1:hover{
+    color: orange;
+    transition: 1s;
+}
+#So{
+    position: absolute;
+    left: 25%;
+}
+
+#Pro{
+    position: absolute;
+    left: 50%;
+}
+
+#Ha{
+    position: absolute;
+    left: 75%;
+}
+
+p1{
+    word-spacing: 3rem;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+#t1 {
+
+    visibility: hidden;
+
+}
+
+.img1{
+    max-width: 250px;
+    width: auto;
+    max-height: 250px;
+    height: auto;
+    border-radius: 50%;
+    box-shadow: 8px 8px 8px gray;
+
+    animation: perani infinite 3s;
+    position: absolute;
+    left: 55%;
+    top: 40%;
+}
+
+h2{
+    color: white;
+    font-size: 2rem;
+    position: absolute;
+    left: 30%;
+    top: 40%;
+}
+
+.img2{
+    max-width: 300px;
+    width: auto;
+    max-height: 300px;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    animation: yodaani infinite 2.5s;
+}
+
+p2{
+    font-size: 1rem;
+color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: absolute;
+    left: 45%;
+    top: 55%;
+}
+
+@keyframes yodaani {
+    0%{
+        top: 50%;
+    }
+
+    50%{
+        top: 65%;
+    }
+    100%{
+        top: 50%;
+    }
+}
+
+@keyframes perani{
+    0%{
+        left: 55%;
+    }
+    50%{
+        left: 65%;
+    }
+    100%{
+        left: 55%;
+    }
+}
+
+#T2{
+    visibility: hidden;
+}
+
+.box1,.box2,.box3{
+    background: white;
+    width: 10rem;
+    height: 10rem;
+    font-size: 20pt;
+    color: red;
+    position: absolute;
+    top: 40%;
+    
+}
+.box1{
+    position: absolute;
+    left:35%;
+}
+
+.box2{
+    position: absolute;
+    left: 50%;
+}
+.box3{
+    position: absolute;
+    left: 65%;
+}
+
+#T3{
+    visibility: hidden;
+}
+.footer{
+    background: orange;
+    width: 100%;
+    height: 50%;
+    position: absolute;
+    top: 110%;
+}
+
+
+
+@keyframes sabreanima {
+    0%{
+        background: radial-gradient(white, gray , rgb( 41,40,40));
+        box-shadow: 8px 8px 8px rgb(41, 41, 41);       
+    }
+    50%{
+        background: radial-gradient(orange, yellow, white);
+        box-shadow: 8px 8px 8px yellow;
+    }
+    100%{
+        background: radial-gradient(red,rgb(255, 30, 0), orange);
+        box-shadow: 8px 8px 8px rgb(255, 30, 0);
+    }
+}
